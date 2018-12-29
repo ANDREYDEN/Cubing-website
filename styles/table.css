@@ -1,0 +1,50 @@
+aside#mid {
+  width: 520px;
+  float: left;
+  margin-right: 5px;
+  height:auto;
+}
+
+aside#mid h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+aside#mid p {
+  margin: 10px;
+}
+
+aside#mid table {
+  margin: 10px auto;
+}
+
+aside#mid table td, th {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+aside#mid thead {
+  color: #5d310e;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 4px solid black;
+}
+
+aside#mid tbody tr:nth-child(even) {
+  background-color: #db9035;
+}
+
+aside#mid tbody tr:nth-child(5n+0), aside#mid tbody td#event {
+  border-bottom: 3px solid black;
+}
+
+aside#right {
+  width: 260px;
+  float: left;
+  text-align: center;
+}
+
+aside#right img {
+  width: 100px;
+  height: 100px;
+}
